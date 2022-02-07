@@ -5,7 +5,7 @@ import About from "./components/pages/About";
 import List from "./components/pages/List";
 import HeaderMain from "./components/layout/HeaderMain";
 
-import "./styles/app.css";
+import "./styles/App.css";
 
 function App() {
   return (
