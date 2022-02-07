@@ -1,0 +1,18 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar .input {
+  height: 30px;
+  padding: 3px 0 3px 20px;
+  border: none;
+  min-width: 220px;
+}
+
+.search-bar .button {
+  height: 30px;
+  border: none;
+  border-left: 1px solid;
+  padding: 0 5px;
+}
