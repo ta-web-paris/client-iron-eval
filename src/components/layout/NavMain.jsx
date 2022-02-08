@@ -8,7 +8,9 @@ const Nav = () => {
     <nav className="nav-main">
       <NavLink to="/">home</NavLink>
       <NavLink to="/about">about</NavLink>
-      <NavLink to="/list">list</NavLink>
+      <NavLink to="/list/cats">all cats</NavLink>
+      <NavLink to="/details/random-cat">random cat</NavLink>
+
     </nav>
   );
 };

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import apiHandler from './../../api/handler';
+// import axios from 'axios';
+// import apiHandler from './../../api/handler';
 
 const List = () => {
 

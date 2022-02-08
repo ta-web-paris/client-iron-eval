@@ -23,7 +23,7 @@ This root should prefix all requests:
 | Route          | HTTP Verb | Response        |
 | -------------- | --------- | -----------------  |
 | `/cats`        | GET       | Get all cats       |
-| `/cat/random`  | GET       | Get a random cat   |
+| `/cats/random` | GET       | Get a random cat   |
 | `/cats`        | POST      | Create a cat       |
 | `/cats/:id`    | GET       | Get a cat by id    |
 | `/cats`        | DELETE    | Delete all cats    |

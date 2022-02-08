@@ -2,7 +2,9 @@ import { Routes, Route } from "react-router-dom";
 // pages
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
-import List from "./components/pages/List";
+import ListCats from "./components/pages/ListCats";
+import DetailsCat from "./components/pages/DetailsCat";
+
 import HeaderMain from "./components/layout/HeaderMain";
 
 import "./styles/App.css";
@@ -15,7 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/list" element={<List />} />
+          <Route path="/list/cats" element={<ListCats />} />
+          <Route path="/details/random-cat" element={<DetailsCat />} />
         </Routes>
       </main>
       <footer className="footer-main">&copy; ironhack-2022+</footer>
