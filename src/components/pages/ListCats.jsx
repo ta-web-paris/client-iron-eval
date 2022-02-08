@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import apiHandler from './../../api/handler';
 
 const List = () => {
+
+  const [cats, setCats] = useState([]);
+
+  useEffect(() => {
+
+  }, []);
+
   return (
     <>
       <h1>Let's list, shall we ?</h1>
