@@ -30,4 +30,7 @@ This base URL should prefix all requests:
 | `/cats/:id`    | GET       | Get a cat by id    |
 | `/cats/:id`    | DELETE    | Delete a cat by id |
 
+> The DELETE route won't actually delete the ressource (So we don't need to reseed every few minutes),
+> you might want to verify what the server tells you !
+
 The same endpoints are available for superheroes and comics publishers, beginning respectively with "heroes" and "publishers".
