@@ -10,6 +10,7 @@
 	border: none;
 	min-width: 220px;
 	border-radius: 0.3em;
+	outline: none;
 }
 
 .search-bar .button {
@@ -18,4 +19,8 @@
 	border-left: 1px solid;
 	padding: 0 5px;
 	border-radius: 0.3em;
+	cursor: pointer;
+}
+.search-bar .button:hover {
+	background-color: rgb(212, 210, 210);
 }

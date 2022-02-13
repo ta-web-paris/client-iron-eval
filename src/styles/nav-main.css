@@ -1,11 +1,11 @@
 .nav-main {
-  display: flex;
-  width: 100%;
-  max-width: 300px;
-  justify-content: space-between;
-  gap: 10px;
+	display: flex;
+	width: 100%;
+	max-width: 300px;
+	justify-content: space-between;
+	gap: 10px;
 }
 
 .nav-main .active {
-  color: #ffeb3b;
+	color: #ffeb3b;
 }

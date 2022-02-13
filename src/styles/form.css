@@ -1,9 +1,20 @@
 .form {
-  display: flex;
-  flex-direction: column;
-  max-width: 768px;
+	display: flex;
+	flex-direction: column;
+	max-width: 768px;
+	gap: 0.2em;
 }
 
-.form > * {
-  gap: 10px;
+.form > input {
+	min-width: 300px;
+	height: 1.9em;
+	border: 1px solid gray;
+	outline: none;
+	padding-left: 0.5em;
+}
+
+.form button {
+	width: min-content;
+	padding: 0.2em;
+	align-self: center;
 }

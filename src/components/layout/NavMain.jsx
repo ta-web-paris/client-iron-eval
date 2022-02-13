@@ -9,7 +9,8 @@ const Nav = () => {
 			<NavLink to="/">home</NavLink>
 			<NavLink to="/about">about</NavLink>
 			<NavLink to="/list">List</NavLink>
-			<NavLink to="/details/random">Random element</NavLink>
+			<NavLink to="/details/random">Random</NavLink>
+			<NavLink to="/create">Create</NavLink>
 		</nav>
 	);
 };
