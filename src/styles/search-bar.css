@@ -1,18 +1,21 @@
 .search-bar {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
 }
 
 .search-bar .input {
-  height: 30px;
-  padding: 3px 0 3px 20px;
-  border: none;
-  min-width: 220px;
+	height: 30px;
+	padding: 3px 0 3px 20px;
+	border: none;
+	min-width: 220px;
+	border-radius: 0.3em;
 }
 
 .search-bar .button {
-  height: 30px;
-  border: none;
-  border-left: 1px solid;
-  padding: 0 5px;
+	height: 30px;
+	border: none;
+	border-left: 1px solid;
+	padding: 0 5px;
+	border-radius: 0.3em;
 }
