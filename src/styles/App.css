@@ -1,35 +1,39 @@
 :root {
-  --height-header: 70px;
-  --height-footer: 50px;
+	--height-header: 70px;
+	--height-footer: 50px;
 }
 
 .header-main,
 .content-main,
 .footer-main {
-  padding-left: 20px;
-  padding-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .header-main {
-  background-color: #282c34;
-  height: var(--height-header);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
+	background-color: #282c34;
+	height: var(--height-header);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
 }
 
 .content-main {
-  padding-top: 40px;
-  padding-bottom: 60px;
-  min-height: calc(100vh - (var(--height-header) + var(--height-footer)));
+	padding-top: 40px;
+	padding-bottom: 60px;
+	min-height: calc(100vh - (var(--height-header) + var(--height-footer)));
 }
 
 .footer-main {
-  background-color: #282c34;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  height: var(--height-footer);
+	background-color: #282c34;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: var(--height-footer);
+}
+
+img {
+	max-width: 300px;
 }
